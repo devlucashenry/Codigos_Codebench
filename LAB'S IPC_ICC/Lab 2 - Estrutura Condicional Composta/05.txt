@@ -1,0 +1,12 @@
+quantidade_jogo = int(input("quantidade de jogos:"))
+
+if (quantidade_jogo == 1):
+	pjogo1 = float(input("preco do jogo: "))
+	total = pjogo1
+	print(round(total, 2))
+else:
+	pjogo1 = float(input("preco jogo 1: "))
+	pjogo2 = float(input("preco do jogo 2: "))
+	
+	total = (pjogo1 + pjogo2) - (25 * pjogo2) / 100
+	print(round(total,2))

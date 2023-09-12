@@ -1,0 +1,10 @@
+a1 = float(input("minha altura: "))
+a2 = float(input("altura meu amigo:"))
+c=0
+if (a1 >= 1.37) or a2>=1.37:
+		print("Sim")		
+else: 
+	print("Nao")
+	
+maximo = max(a1 , a2)
+print(maximo)

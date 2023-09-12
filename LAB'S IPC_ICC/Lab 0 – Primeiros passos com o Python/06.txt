@@ -1,0 +1,4 @@
+total = 180
+amigos = 4
+preco_cada_um = total / amigos
+print(preco_cada_um)

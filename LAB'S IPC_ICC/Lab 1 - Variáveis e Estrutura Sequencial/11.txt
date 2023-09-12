@@ -1,0 +1,8 @@
+import math
+
+a = float(input("distancia do observador da primeira arvore: "))
+b = float(input("distancia do observador da segunda arvore: "))
+y = math.radians(float(input("angulo entre a e b: ")))
+
+c = math.sqrt(a**2 + b**2 - 2 * a * b * math.cos(y))
+print(round(c,2))

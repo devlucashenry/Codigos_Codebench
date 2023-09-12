@@ -1,0 +1,35 @@
+B_ou_S = input("digite B para bolo ou S para salgado: ")
+
+if (B_ou_S == "B"):
+	pbolo = 2.50
+	prefri = 3.0
+	
+	quantidade_bolo = int(input("quantidades de bolos: "))
+	quantidade_refri = int(input("quantidade de refrigerante: "))
+	disponivel = float(input("valor disponivel: "))
+	
+	total = (quantidade_bolo * pbolo) + (quantidade_refri * prefri)
+		
+	print(round(total , 2))
+	
+	if (disponivel >= total):
+		print("Sim")
+	else:
+		print("Nao")
+
+else:
+	psalgado = 3.50
+	prefri = 3.0
+	
+	quantidade_salgado = int(input("quantidades de salgado: "))
+	quantidade_refri = int(input("quantidade de refrigerante: "))
+	disponivel = float(input("valor disponivel: "))
+	
+	total = (quantidade_salgado * psalgado) + (quantidade_refri * prefri)
+		
+	print(round(total , 2))
+	
+	if (disponivel >= total):
+		print("Sim")
+	else:
+		print("Nao")

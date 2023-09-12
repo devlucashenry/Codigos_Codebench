@@ -1,0 +1,3 @@
+fundacao = 1909
+ano = int(input("Ano:  "))
+print("Em",ano,"a UFAM completou", ano - fundacao, "anos de fundacao.")

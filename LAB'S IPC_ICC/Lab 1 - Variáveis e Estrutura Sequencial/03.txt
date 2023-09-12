@@ -1,0 +1,13 @@
+quantidades_jogos = int(input("Quantidades de jogos a serem encomendados: "))# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+x = int(input("numero dividendo: "))
+y = int(input("numero divisor: "))
+
+dividendo = x
+divisor = y
+quociente = x // y 
+resto = x % y
+
+print(dividendo,"\n", divisor, "\n", quociente, "\n", resto)

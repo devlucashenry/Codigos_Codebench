@@ -1,0 +1,13 @@
+sucos = int(input("quantidade de sucos: "))
+salgados = int(input("quantidade de salgados: "))
+dinheiro = float(input("valor disponivel: "))
+
+psuco = 3.0
+psalgado = 3.50
+total = (sucos * psuco) + (salgados * psalgado)
+print(round(total , 2))
+	
+if (dinheiro >= total):
+	print("Sim")
+else:
+	print("Nao")

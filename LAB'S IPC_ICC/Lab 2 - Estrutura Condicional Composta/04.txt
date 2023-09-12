@@ -1,0 +1,10 @@
+escala = input(" digite C para converter celsius para Fahrenheit e F para converter Fahrenheit em celsius:  ")
+if (escala == "C"):
+	temperatura_C = float(input("temperatura em Celsius:  "))
+	temperatura_F = 9/5 * (temperatura_C ) + 32
+	
+	print(round(temperatura_F, 2))
+else:
+	temperatura_F = float(input("temperatura em Fahrenheit: :  "))
+	temperatura_C = 5/9 * (temperatura_F - 32)
+	print(round(temperatura_C,2))

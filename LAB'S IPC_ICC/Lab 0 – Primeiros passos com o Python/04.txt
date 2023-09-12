@@ -1,0 +1,4 @@
+total = 90
+h = 55
+f = total - h
+print(f)

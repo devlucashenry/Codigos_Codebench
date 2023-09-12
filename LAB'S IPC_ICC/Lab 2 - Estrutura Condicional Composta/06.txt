@@ -1,0 +1,12 @@
+consumo = float(input("consumo em kWh: "))
+
+if (consumo <= 150):
+	tarifa = 0.60
+	taxa_fixa = 5
+	valor_da_conta = (consumo * tarifa) + taxa_fixa
+	print(round(valor_da_conta , 2))
+else:
+	tarifa = 0.75
+	taxa_fixa = 16
+	valor_da_conta = (consumo * tarifa) + taxa_fixa
+	print(round(valor_da_conta , 2))

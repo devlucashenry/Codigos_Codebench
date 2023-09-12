@@ -1,0 +1,13 @@
+t = int(input("tempo: "))
+Qf = 1042000
+Qi = 1500
+
+divisao =(Qf // Qi)**(1 / t)
+i = divisao - 1
+
+print(round(i , 5))
+
+if (i <= 0.01):
+	print("Real")
+else: 
+	print("Irreal")

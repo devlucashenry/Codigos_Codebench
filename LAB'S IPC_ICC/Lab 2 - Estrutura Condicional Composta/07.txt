@@ -1,0 +1,12 @@
+area = float(input("area a ser fertilizada: "))
+
+if (area <= 10000.0):
+	tarifa = 5
+	total = (area * tarifa)
+	print(round(total , 2))
+	
+else:
+	tarifa = 5
+	taxa_excedente = (area - 10000.0) * 4
+	total = (10000.0 * 5) + taxa_excedente
+	print(round(total , 2))

@@ -1,0 +1,4 @@
+total = 250
+amigos = 6
+preco_cada_um = total / amigos
+print(round(preco_cada_um, 2))

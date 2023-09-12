@@ -1,0 +1,6 @@
+ouro = 50
+guerreiros = 3
+moedas_para_cada_guerreiro = ouro // guerreiros
+print(moedas_para_cada_guerreiro)
+moedas_do_informante = ouro % 3
+print(moedas_do_informante)

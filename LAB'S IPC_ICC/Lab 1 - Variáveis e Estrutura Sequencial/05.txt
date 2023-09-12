@@ -1,0 +1,14 @@
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+a = int(input("valor de a: "))
+b = int(input("valor de b: "))
+c = int(input("valor de c :"))
+
+menor = min(a, b, c)
+maximo = max(a, b, c)
+
+valor_intermediario = (a + b +c) - menor - maximo
+
+print(menor, "\n", valor_intermediario, "\n", maximo)

@@ -1,0 +1,10 @@
+vendas = float(input("valor das vendas: "))
+
+if (vendas <= 1000.00):
+	comissao = (vendas * 5) / 100
+	print(round(comissao , 2))
+
+else:
+	excedente = (vendas - 1000.00) 
+	comissao = (1000.00 * 5) / 100 + (excedente * 10) / 100
+	print(round(comissao , 2))

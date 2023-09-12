@@ -1,5 +1,0 @@
-a = 2
-b = 3
-
-soma = a + b 4
-print(soma)

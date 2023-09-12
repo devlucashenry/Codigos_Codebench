@@ -1,0 +1,12 @@
+Sinicial = int(input("posicao inicial:"))
+Sinicial = int(input("posicao inicial:"))
+Vinicial = int(input("Velocidade: "))
+tempo = int(input("tempo: "))
+
+Sfinal = Sinicial + (Vinicial * tempo)
+print(Sfinal)
+
+if (Sfinal < 1000):
+	print("Nao")
+else:
+	print("Sim")

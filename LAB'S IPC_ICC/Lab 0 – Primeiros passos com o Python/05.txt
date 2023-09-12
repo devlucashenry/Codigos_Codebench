@@ -1,0 +1,4 @@
+preco = 35
+amigos = 20
+total_da_conta = preco * amigos
+print(total_da_conta)

@@ -1,0 +1,4 @@
+s = 40
+j = 35
+soma = s + j
+print(soma)

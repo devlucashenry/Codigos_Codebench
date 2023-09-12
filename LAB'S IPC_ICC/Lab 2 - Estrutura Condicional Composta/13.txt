@@ -1,0 +1,12 @@
+j = float(input("taxa de juros: "))
+valor_apartamento = int(input("valor do apartamento: "))
+
+Qf = 1500 * (1 + j)**36
+
+print(round(Qf , 2))
+
+if (Qf >= valor_apartamento):
+	print("Sim")
+	
+else:
+	print("Nao")

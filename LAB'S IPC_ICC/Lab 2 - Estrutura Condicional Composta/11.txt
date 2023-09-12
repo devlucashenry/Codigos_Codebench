@@ -1,0 +1,11 @@
+Sinicial = int(input("posicao inicial:"))
+Vinicial = int(input("Velocidade: "))
+tempo = int(input("tempo: "))
+
+Sfinal = Sinicial + (Vinicial * tempo)
+print(Sfinal)
+
+if (Vinicial <= 100):
+	print("OK")
+else:
+	print("ACIMA")
